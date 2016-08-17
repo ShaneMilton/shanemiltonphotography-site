@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %} {{ page.title }} | {% endif %}Shane Milton Photography</title>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+
+  <!-- Wrap all page content -->
+  <div id="wrap">
+
+    <!-- Begin page content -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-epanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Shane Milton Photography</a>
+        </div>
+
+        <!-- Collect the nave links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/paybill/">Pay Bill</a></li>
+          </ul>
+        </div>
+      </div>
+
+  {{ content }}
+
+</div>
+
+  <!-- Pusher for footer -->
+  <div class="push"></div>
+
+  <div class="footer">
+    <div class="container">
+      <p class="text-muted">&copy 2015 Shane Milton</p>
+    </div>
+  </div>
+
+<script src="/bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+</body>
+</html>

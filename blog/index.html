@@ -1,0 +1,26 @@
+---
+layout: default
+title: blog
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+
+    <ul class="bl_links">
+      {% for post in site.posts %}
+
+      <ol>
+        <a href="{{ post.url }}">
+          <h3 class="blog_text">{{ post.title }}</h3>
+          <img src="{{ post.image }}" class="img-rounded center-block" width="65%">
+          <!--
+          <h3>{{ post.title }}</h3> -->
+        </a>
+      </ol>
+
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "name": "shanemiltonphotography",
+  "description": "photographer",
+  "main": "gulpfile.js",
+  "authors": [
+    "shane milton"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "shanemiltonphotography.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
