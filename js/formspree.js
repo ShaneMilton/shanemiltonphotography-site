@@ -2,7 +2,8 @@ var $contactForm = $('#contact-form');
 $contactForm.submit(function(e) {
 	e.preventDefault();
 	$.ajax({
-		url: '//formspree.io/shane@shanemiltonphotography.com',
+		// Replace name@email.com with your own email address:
+		url: '//formspree.io/name@email.com',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
